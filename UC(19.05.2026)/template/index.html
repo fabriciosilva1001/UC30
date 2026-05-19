@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>SnackTime Delivery</title>
+    <link href="https://jsdelivr.net" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-warning" href="/">🚀 SnackTime</a>
+            <div class="navbar-nav ms-auto flex-row gap-3">
+                <a class="nav-link text-white" href="/menu">Cardápio</a>
+                <a class="nav-link text-white" href="/meu-carrinho">Sacola</a>
+                <a class="nav-link text-white" href="/fale-conosco">Suporte</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        {% block principal %}
+        {% endblock %}
+    </div>
+
+    <script src="https://jsdelivr.net"></script>
+</body>
+</html>
