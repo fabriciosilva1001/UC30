@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Escola</title>
+</head>
+<body>
+
+    <h3>Formulário de Entrada de Alunos</h3>
+    <p>Preencha os campos abaixo para validar sua vaga:</p>
+
+    <form action="/salvar">
+        <ul>
+            <li>
+                <label>Estudante:</label>
+                <input type="text" name="txt_nome" required>
+            </li>
+            <br>
+            <li>
+                <label>Localidade (Cidade/UF):</label>
+                <input type="text" name="txt_cidade" required>
+            </li>
+            <br>
+            <li>
+                <label>Seu E-mail:</label>
+                <input type="email" name="txt_email" required>
+            </li>
+            <br>
+            <li>
+                <label>Curso Escolhido:</label>
+                <input type="text" name="txt_curso" required>
+            </li>
+        </ul>
+
+        <br>
+        <button type="submit">Finalizar Inscrição</button>
+    </form>
+
+</body>
+</html>
