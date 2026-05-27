@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>
+        {% block titulo %}
+        {% endblock %}
+    </title>
+
+    <link rel="stylesheet"
+    href="{{url_for('static', filename='style.css')}}">
+
+</head>
+
+<body>
+
+<div class="topo">
+
+<h1>Portal do Aluno</h1>
+
+<nav>
+
+<a href="/">Home</a>
+<a href="/cursos">Cursos</a>
+<a href="/professores">Professores</a>
+<a href="/contato">Contato</a>
+
+</nav>
+
+</div>
+
+<div class="principal">
+
+{% block conteudo %}
+
+{% endblock %}
+
+</div>
+
+<div class="baixo">
+
+Sistema Escolar 2026
+
+</div>
+
+</body>
+</html>

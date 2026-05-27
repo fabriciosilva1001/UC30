@@ -1,0 +1,41 @@
+body{
+    margin:0;
+    background:#eeeeee;
+    font-family:Calibri;
+}
+
+.topo{
+    background:#5b3cc4;
+    text-align:center;
+    padding:20px;
+}
+
+.topo h1{
+    color:white;
+}
+
+nav{
+    margin-top:10px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    padding:8px;
+}
+
+.principal{
+    width:70%;
+    margin:auto;
+    margin-top:25px;
+    background:white;
+    padding:25px;
+}
+
+.baixo{
+    background:#5b3cc4;
+    color:white;
+    text-align:center;
+    margin-top:30px;
+    padding:15px;
+}
